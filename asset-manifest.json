@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rudi_notes/static/css/main.c1336876.css",
+    "main.js": "/Rudi_notes/static/js/main.040a312f.js",
+    "index.html": "/Rudi_notes/index.html",
+    "main.c1336876.css.map": "/Rudi_notes/static/css/main.c1336876.css.map",
+    "main.040a312f.js.map": "/Rudi_notes/static/js/main.040a312f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1336876.css",
+    "static/js/main.040a312f.js"
+  ]
+}
