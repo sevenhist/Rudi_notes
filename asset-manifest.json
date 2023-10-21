@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Rudi_notes/static/css/main.c1336876.css",
-    "main.js": "/Rudi_notes/static/js/main.040a312f.js",
+    "main.css": "/Rudi_notes/static/css/main.b4c7b970.css",
+    "main.js": "/Rudi_notes/static/js/main.e0bcc4b8.js",
     "index.html": "/Rudi_notes/index.html",
-    "main.c1336876.css.map": "/Rudi_notes/static/css/main.c1336876.css.map",
-    "main.040a312f.js.map": "/Rudi_notes/static/js/main.040a312f.js.map"
+    "main.b4c7b970.css.map": "/Rudi_notes/static/css/main.b4c7b970.css.map",
+    "main.e0bcc4b8.js.map": "/Rudi_notes/static/js/main.e0bcc4b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1336876.css",
-    "static/js/main.040a312f.js"
+    "static/css/main.b4c7b970.css",
+    "static/js/main.e0bcc4b8.js"
   ]
 }
