@@ -1,0 +1,323 @@
+
+.app-sidebar {
+    max-width: 30%;
+    height: 100vh;
+    border-right: 1px solid #252525;
+    width: 30%;
+    position: relative;
+}  
+
+.app-sidebar-header {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #252525;
+}
+.app-sidebar-header h1 {
+    padding-left: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 0.5px;
+}
+.app-sidebar-notes {
+    height: calc(100vh - 78px);
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.app-sidebar-note {
+    padding: 25px;
+    cursor: pointer;
+    border-bottom: 1px solid #252525;
+}
+.sidebar-note-title {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 0.5px;
+}
+.app-sidebar-note button {
+    color: crimson;
+}
+.app-sidebar-note p {
+    margin: 10px 0;
+}
+.app-sidebar-note small {
+    display: block;
+    color: #999;
+}
+.app-sidebar-note:hover {
+    background: #3a3a3a;
+}
+.app-sidebar-note.active {
+    background: #9e0000;
+    color: white;
+}
+.app-sidebar-note.active small {
+    color: white;
+}
+.trash {
+    font-size: 30px;
+    fill: white;
+}
+.trash_button {
+    padding: 7px;
+    pointer-events: none; /* нельзя делать каких-либо действий с кнопкой */
+    background-color: #1b1b1b;
+    transition: all .2s ease;
+    border-radius: 20%;
+    border: none;
+    opacity: 0.5;
+}
+.active_button {
+    pointer-events: auto; /* можно делать каких-либо действий с кнопкой */
+    opacity: 1;
+}
+.active_button:hover {
+    background-color: #750101;
+}
+.add {
+    font-size: 30px;
+    fill: white;
+}
+.add_button {
+    padding: 7px;
+    background-color: #1b1b1b;
+    border-radius: 20%;
+    border: none;
+    margin-right: 10px;
+}
+.add_button:hover {
+    background-color: #3a3a3a;
+}
+.buttons_add_delete {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.parent_of_trash {
+    padding-right: 5px;
+}
+/* Modal Window */
+
+/* white theme  */
+.app-sidebar-note-white-theme.white-active {
+    background: #7634d8;
+    color: white;
+}
+.app-sidebar-note-white-theme.white-active:hover {
+    background: #7634d8;
+    color: white;
+}
+.app-sidebar-note-white-theme:hover {
+    background: #ddd;
+}
+.app-sidebar-note-white-theme {
+    padding: 25px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+}
+.app-sidebar-note-white-theme button {
+    color: crimson;
+}
+.app-sidebar-note-white-theme p {
+    margin: 10px 0;
+}
+.app-sidebar-note-white-theme small {
+    display: block;
+    color: #999;
+}
+.trash_white_theme {
+    font-size: 30px;
+    fill: rgb(0, 0, 0);
+}
+.trash_button_white_theme {
+    padding: 7px;
+    pointer-events: none; /* нельзя делать каких-либо действий с кнопкой */
+    background-color: #ddd;
+    transition: all .2s ease;
+    border-radius: 20%;
+    border: none;
+    opacity: 0.5;
+}
+.active_button_white_theme {
+    pointer-events: auto; /* можно делать каких-либо действий с кнопкой */
+    opacity: 1;
+}
+.active_button_white_theme:hover {
+    background-color: #df395a;
+}
+.add_white_theme {
+    font-size: 30px;
+    fill: rgb(0, 0, 0);
+}
+.add_button_white_theme {
+    padding: 7px;
+    background-color: #ddd;
+    border-radius: 20%;
+    border: none;
+    margin-right: 10px;
+}
+.add_button_white_theme:hover {
+    background-color: #bbb;
+}
+
+.app-sidebar-header_white_theme {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+.app-sidebar-header_white_theme h1 {
+    padding-left: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 0.5px;
+}
+.app-sidebar_white_theme.app-sidebar {
+    border-right: 1px solid #ddd;
+}  
+/* mobile adaptation */
+.header-container-mobile {
+    column-gap: 10px;
+    padding: 0 20px;
+    height: 101px;
+    border-bottom: 1px solid #252525;
+    display: none;
+    align-items: center;
+}
+.header-container_white_theme_mobile {
+    column-gap: 10px;
+    padding: 0 20px;
+    height: 101px;
+    border-bottom: 1px solid #ddd;
+    display: none;
+    align-items: center;
+}
+.header-container_white_theme_mobile, .search_box {
+    display: none;
+    align-items: start;
+    justify-content: right;
+    position: relative;
+}
+.header-container-mobile, .search_box {
+    display: none;
+    align-items: start;
+    justify-content: right;
+    position: relative;
+}
+.addButtonMobile {
+    background-color: #1b1b1b;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    pointer-events: auto;
+    opacity: 1;
+}
+.addButtonMobileWhite {
+    background-color: #ddd;
+    padding: 2px 8px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 10px;
+    pointer-events: auto;
+    opacity: 1;
+}
+.addButtonMobileWhite svg {
+    fill: #000;
+} 
+.trash_active_button_white svg {
+    fill: #000;
+}
+.trash_not_active_button_white svg {
+    fill: #000;
+}
+@media(max-width:1015px) {
+    .header-container-mobile {
+        display: flex;
+    }
+    .header-container_white_theme_mobile {
+        display: flex;
+    }
+    .header-container_white_theme_mobile, .search_box {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        position: relative;
+    }
+    .header-container-mobile, .search_box {
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        position: relative;
+    }
+    .app-sidebar {
+        position: fixed;
+        max-width: 100%;
+        width: 100%;
+        display: none;
+        background-color: #111;
+        z-index: 20;
+        left: 0;
+        top: 0;
+    }
+    .app-sidebar_white_theme {
+        position: fixed;
+        max-width: 100%;
+        width: 100%;
+        display: none;
+        background-color: #fff;
+        z-index: 20;
+        left: 0;
+        top: 0;
+    }
+    .app-sidebar-active {
+        display: block;
+    }
+    .buttons_add_delete {
+        display: none;
+    }
+    .app-sidebar-header h1 {
+        visibility: hidden;
+    }
+    .app-sidebar-header {
+        display: none;
+    }
+    .app-sidebar-header_white_theme {
+        display: none;
+    }
+    .app-sidebar-header_white_theme h1 {
+        visibility: hidden;
+    }
+}
+@media(max-width:445px) {
+    .trash {
+        font-size: 20px;
+        fill: white;
+    }
+    .add {
+        font-size: 20px;
+        fill: white;
+    }
+    .trash_white_theme {
+        font-size: 20px;
+        fill: rgb(0, 0, 0);
+    }
+    .add_white_theme {
+        font-size: 20px;
+        fill: rgb(0, 0, 0);
+    }
+}

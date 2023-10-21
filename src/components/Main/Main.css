@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&family=Fira+Sans:wght@200;400;600;700&family=Josefin+Sans:wght@400;700&family=Montserrat:wght@700&family=Roboto:ital@1&family=Young+Serif&display=swap');
+.app-main {
+    width: 70%;
+}
+.app-main-note-edit,
+.app-main-note-preview {
+  height: 80%;
+}
+.no-active-note {
+  width: 70%;
+  height: 100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #999;
+  padding-left: 300px;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Young Serif', serif;
+  letter-spacing: 0.5px;
+}
+  
+  /* Editing */
+.app-main-note-edit {
+  padding: 25px;
+  z-index: 1;
+}
+  
+.app-main-note-edit input {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-size: inherit;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Young Serif', serif;
+  color: #fff;
+  background-color: #111;
+  background: none;
+  border: none;
+  outline: none;
+}
+.app-main-note-edit textarea {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-size: inherit;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Young Serif', serif;
+  color: #fff;
+  background-color: #111;
+  background: none;
+  border: none;
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
+.app-main-note-edit input {
+  height: 50px;
+  font-size: 1.5rem;
+  outline: none;
+  border-bottom: 1px solid #252525;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Young Serif', serif;
+}
+.app-main-note-edit input:focus {
+  outline: none;
+}
+
+.container-no-activ-note {
+  width: 70%;
+}
+/* scroll editing */
+
+/* white thema */
+
+.app-main-note-edit_white_theme input {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: inherit;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    color: #000000;
+    background: none;
+    border: none;
+    outline: none;
+}
+.app-main-note-edit_white_theme textarea {
+  display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: inherit;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    color: #000000;
+    background: none;
+    border: none;
+    outline: none;
+}
+.app-main-note-edit_white_theme, 
+.app-main-note-preview {
+  height: 80%;
+}
+.app-main-note-edit_white_theme {
+  padding: 25px;
+}
+.app-main-note-edit_white_theme input {
+  height: 50px;
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bbb;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Young Serif', serif;
+}
+textarea:focus {
+  outline: none;
+}
+.app-main-note-edit_white_theme input:focus {
+  outline: none;
+}
+/* Mobile adaptation */
+.burger {
+  opacity: 0;
+  z-index: 2;
+  left: 95%;
+  position: relative;
+  top: 5%;
+}
+.burger:hover {
+  cursor: pointer;
+}
+.app-main-activ {
+  display: block;
+  width: 70%;
+}
+@media(max-width:1015px) {
+  .burger {
+    opacity: 1;
+  }
+  .container-no-activ-note {
+    width: 100%;
+    position: relative;
+  }
+  .container-no-activ-note-activ {
+    display: block;
+  }
+  .app-main-no-activ {
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+  }
+  .app-main-activ {
+    display: block;
+    width: 100%;
+  }
+  .app-main-activ.app-main-no-activ.app-main-no-activ {
+    width: 100%;
+  }
+}
+@media(max-width: 680px) {
+  .no-active-note {
+    width: 70%;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #999;
+    padding-left: 200px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 0.5px;
+  }
+}
+@media(max-width: 535px) {
+  .no-active-note {
+    width: 70%;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #999;
+    padding-left: 150px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 0.5px;
+  }
+}
+@media(max-width: 465px) {
+  .no-active-note {
+    width: 70%;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #999;
+    padding-left: 100px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 0.5px;
+  }
+}
+@media(max-width: 390px) {
+  .no-active-note {
+    width: 70%;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #999;
+    padding-left: 80px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 0.5px;
+  }
+}
+@media(max-width: 362px) {
+  .no-active-note {
+    width: 70%;
+    height: 100vh;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #999;
+    padding-left: 60px;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Young Serif', serif;
+    letter-spacing: 0.5px;
+  }
+}
